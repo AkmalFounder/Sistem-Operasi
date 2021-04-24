@@ -1,0 +1,12 @@
+Install GCC
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install build-essential
+atau
+sudo apt-get install gcc-7
+
+Install pthread linux (jika belum diinstal)
+sudo apt-get install libpthread-stubs0-dev
+
+Compile
+gcc source_code.c -o nama_executable -pthread
